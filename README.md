@@ -24,8 +24,7 @@ Chackra UI
 HTML
 CSS
 # Installation Requirements
-Fork the repo, then clone it
-install all dependencies, with 'npm install'
-start the server 'npm run dev'
-start the application 'npm start'
->>>>>>> caf3a3d319efec12f1a846bfe261c1b0fe1dd5d4
+* Fork the repo, then clone it
+* install all dependencies, with 'npm install'
+* start the server 'npm run dev'
+* start the application 'npm start'
