@@ -1,0 +1,503 @@
+{
+	"main": [
+		{
+			"id": 1,
+			"title": "The home of apple Originals",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/main.jpg"
+		},
+
+		{
+			"id": 2,
+			"title": "The home of apple Originals",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/flight.jpg"
+		},
+		{
+			"id": 3,
+			"title": "The Morning Show",
+			"description": "The network’s future is thrown into question. Watch the Season 3 finale.",
+			"Image": "src/assets/images/theBestSessionYet.jpg"
+		},
+		{
+			"id": 4,
+			"title": "For All Mankind",
+			"description": "A new gold rush begins. Watch the Season 4 premiere.",
+			"Image": "src/assets/images/moon.jpg"
+		},
+
+		{
+			"id": 5,
+			"title": "The boocuneers ",
+			"description": "American girls clash with high-society England. Watch the series premiere.",
+			"Image": "src/assets/images/enthrailing.jpg"
+		},
+		{
+			"id": 6,
+			"title": "Monarch legacy of monster",
+			"description": "An adventure series of monstrous proportions. Premieres Friday. Add to Up Next.",
+			"Image": "src/assets/images/godzilla.jpg"
+		}
+	],
+	"premium": [
+		{
+			"id": 1,
+			"title": "The home of apple Originals",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/premium/hijack.jpg"
+		},
+
+		{
+			"id": 2,
+			"title": "The home of apple Originals",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/premium/lessonsInChemistry.jpg"
+		},
+		{
+			"id": 3,
+			"title": "The Morning Show",
+			"description": "The network’s future is thrown into question. Watch the Season 3 finale.",
+			"Image": "src/assets/images/premium/luck.jpg"
+		},
+		{
+			"id": 4,
+			"title": "For All Mankind",
+			"description": "A new gold rush begins. Watch the Season 4 premiere.",
+			"Image": "src/assets/images/premium/stillup.jpg"
+		},
+
+		{
+			"id": 5,
+			"title": "The boocuneers ",
+			"description": "American girls clash with high-society England. Watch the series premiere.",
+			"Image": "src/assets/images/premium/the-enfield.jpg"
+		},
+		{
+			"id": 6,
+			"title": "Monarch legacy of monster",
+			"description": "An adventure series of monstrous proportions. Premieres Friday. Add to Up Next.",
+			"Image": "src/assets/images/godzilla.jpg"
+		}
+	],
+	"topshows": [
+		{
+			"id": 1,
+			"movie": "The Morning Show",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/topmovies/morning.jpg",
+			"ranking": 1,
+			"category": "Drama"
+		},
+
+		{
+			"id": 2,
+			"movie": "Lessons in Chemistry",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/topmovies/lessons.jpg",
+			"ranking": 2,
+			"category": "Drama"
+		},
+		{
+			"id": 3,
+			"movie": "Ted Lasso",
+			"description": "The network’s future is thrown into question. Watch the Season 3 finale.",
+			"Image": "src/assets/images/topmovies/ted.jpg",
+			"ranking": 3,
+			"category": "Drama"
+		},
+		{
+			"id": 4,
+			"movie": " The Changeling",
+			"description": "A new gold rush begins. Watch the Season 4 premiere.",
+			"Image": "src/assets/images/topmovies/changeling.jpg",
+			"ranking": 4,
+			"category": "Drama"
+		},
+
+		{
+			"id": 5,
+			"movie": "The boocuneers ",
+			"description": "American girls clash with high-society England. Watch the series premiere.",
+			"Image": "src/assets/images/topmovies/ted.jpg",
+			"ranking": 5,
+			"category": "Drama"
+		},
+		{
+			"id": 6,
+			"movie": "Monarch legacy of monster",
+			"description": "An adventure series of monstrous proportions. Premieres Friday. Add to Up Next.",
+			"Image": "src/assets/images/topmovies/invasion.jpg",
+			"ranking": 6,
+			"category": "Drama"
+		}
+	],
+	"topmovies": [
+		{
+			"id": 1,
+			"movie": "Fingernails",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/topmovies/fingernails.jpg",
+			"ranking": 1,
+			"category": "Drama"
+		},
+
+		{
+			"id": 2,
+			"movie": "A Charlie Brown Thanksgiving",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/topmovies/charlie.jpg",
+			"ranking": 2,
+			"category": "Holiday"
+		},
+		{
+			"id": 3,
+			"movie": "Palmer",
+			"description": "The network’s future is thrown into question. Watch the Season 3 finale.",
+			"Image": "src/assets/images/topmovies/ted.jpg",
+			"ranking": 3,
+			"category": "Drama"
+		},
+		{
+			"id": 4,
+			"movie": " Luck",
+			"description": "A new gold rush begins. Watch the Season 4 premiere.",
+			"Image": "src/assets/images/topmovies/changeling.jpg",
+			"ranking": 4,
+			"category": "Animation"
+		},
+
+		{
+			"id": 5,
+			"movie": "Curses ",
+			"description": "American girls clash with high-society England. Watch the series premiere.",
+			"Image": "src/assets/images/topmovies/Curses.jpg",
+			"ranking": 5,
+			"category": "Adventure"
+		},
+		{
+			"id": 6,
+			"movie": "Monarch legacy of monster",
+			"description": "An adventure series of monstrous proportions. Premieres Friday. Add to Up Next.",
+			"Image": "src/assets/images/topmovies/Monarch.jpg",
+			"ranking": 6,
+			"category": "Drama"
+		}
+	],
+	"new-releases": [
+		{
+			"id": 1,
+			"title": "The home of apple Originals",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/new-releases/fingernails.jpg"
+		},
+
+		{
+			"id": 2,
+			"title": "The home of apple Originals",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/topmovies/invasion.jpg"
+		},
+		{
+			"id": 3,
+			"title": "The Morning Show",
+			"description": "The network’s future is thrown into question. Watch the Season 3 finale.",
+			"Image": "src/assets/images/new-releases/monarch.jpg"
+		},
+		{
+			"id": 4,
+			"title": "For All Mankind",
+			"description": "A new gold rush begins. Watch the Season 4 premiere.",
+			"Image": "src/assets/images/new-releases/morning.jpg"
+		},
+
+		{
+			"id": 5,
+			"title": "The boocuneers ",
+			"description": "American girls clash with high-society England. Watch the series premiere.",
+			"Image": "src/assets/images/new-releases/season.jpg"
+		},
+		{
+			"id": 6,
+			"title": "Monarch legacy of monster",
+			"description": "An adventure series of monstrous proportions. Premieres Friday. Add to Up Next.",
+			"Image": "src/assets/images/new-releases/.jpg"
+		}
+	],
+	"bridge-entire-season": [
+		{
+			"id": 1,
+			"title": "The home of apple Originals",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/bridge-entire-season/changeling.jpg"
+		},
+
+		{
+			"id": 2,
+			"title": "The home of apple Originals",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/bridge-entire-season/dickinton.jpg"
+		},
+
+		{
+			"id": 4,
+			"title": "For All Mankind",
+			"description": "A new gold rush begins. Watch the Season 4 premiere.",
+			"Image": "src/assets/images/bridge-entire-season/killers.jpg"
+		},
+
+		{
+			"id": 5,
+			"title": "The boocuneers ",
+			"description": "American girls clash with high-society England. Watch the series premiere.",
+			"Image": "src/assets/images/bridge-entire-season/jane.jpg"
+		},
+		{
+			"id": 6,
+			"title": "Monarch legacy of monster",
+			"description": "An adventure series of monstrous proportions. Premieres Friday. Add to Up Next.",
+			"Image": "src/assets/images/bridge-entire-season/killers.jpg"
+		}
+	],
+	"all-feature-film": [
+		{
+			"id": 1,
+			"title": "The home of apple Originals",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/all-feature-film/flight.jpg"
+		},
+
+		{
+			"id": 2,
+			"title": "The home of apple Originals",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/all-feature-film/masterpiece.jpg"
+		},
+		{
+			"id": 3,
+			"title": "The Morning Show",
+			"description": "The network’s future is thrown into question. Watch the Season 3 finale.",
+			"Image": "src/assets/images/all-feature-film/romance.jpg"
+		},
+		{
+			"id": 4,
+			"title": "For All Mankind",
+			"description": "A new gold rush begins. Watch the Season 4 premiere.",
+			"Image": "src/assets/images/all-feature-film/palmer.jpg"
+		},
+
+		{
+			"id": 5,
+			"title": "The boocuneers ",
+			"description": "American girls clash with high-society England. Watch the series premiere.",
+			"Image": "src/assets/images/enthrailing.jpg"
+		},
+		{
+			"id": 6,
+			"title": "Monarch legacy of monster",
+			"description": "An adventure series of monstrous proportions. Premieres Friday. Add to Up Next.",
+			"Image": "src/assets/images/bridge-entire-season/dropsofgod.jpg"
+		}
+	],
+	"more-from-apple": [
+		{
+			"id": 1,
+			"title": "The home of apple Originals",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/morefromappletv/sci-fi.jpg"
+		},
+
+		{
+			"id": 2,
+			"title": "The home of apple Originals",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/morefromappletv/comingTo.jpg"
+		},
+		{
+			"id": 3,
+			"title": "The Morning Show",
+			"description": "The network’s future is thrown into question. Watch the Season 3 finale.",
+			"Image": "src/assets/images/morefromappletv/featureFilm.jpg"
+		},
+		{
+			"id": 4,
+			"title": "For All Mankind",
+			"description": "A new gold rush begins. Watch the Season 4 premiere.",
+			"Image": "src/assets/images/morefromappletv/kids.jpg"
+		},
+
+		{
+			"id": 5,
+			"title": "The boocuneers ",
+			"description": "American girls clash with high-society England. Watch the series premiere.",
+			"Image": "src/assets/images/morefromappletv/nonficiton.jpg"
+		},
+		{
+			"id": 6,
+			"title": "Monarch legacy of monster",
+			"description": "An adventure series of monstrous proportions. Premieres Friday. Add to Up Next.",
+			"Image": "src/assets/images/morefromappletv/dramaSeries.jpg"
+		}
+	],
+	"coverSlider1": [
+		{ "Image": "src/assets/images/cover/1.jpg" },
+		{ "Image": "src/assets/images/cover/2.jpg" },
+		{ "Image": "src/assets/images/cover/3.jpg" }
+	],
+	"coverSlider2": [
+		{ "Image": "src/assets/images/cover/4.jpg" },
+		{ "Image": "src/assets/images/cover/5.jpg" },
+		{ "Image": "src/assets/images/cover/6.jpg" }
+	],
+	"coverSlider3": [
+		{ "Image": "src/assets/images/cover/7.jpg" },
+		{ "Image": "src/assets/images/cover/8.jpg" },
+		{ "Image": "src/assets/images/cover/9.jpg" },
+		{ "Image": "src/assets/images/cover/10.jpg" }
+	],
+	"cam": [
+		{
+			"id": 1,
+			"title": "The home of apple Originals",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/mls_pass/cam1.webp"
+		},
+
+		{
+			"id": 2,
+			"title": "The home of apple Originals",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/mls_pass/cam2.webp"
+		},
+		{
+			"id": 3,
+			"title": "The Morning Show",
+			"description": "The network’s future is thrown into question. Watch the Season 3 finale.",
+			"Image": "src/assets/images/mls_pass/cam3.webp"
+		},
+		{
+			"id": 4,
+			"title": "For All Mankind",
+			"description": "A new gold rush begins. Watch the Season 4 premiere.",
+			"Image": "src/assets/images/mls_pass/cam4.webp"
+		},
+
+		{
+			"id": 5,
+			"title": "The boocuneers ",
+			"description": "American girls clash with high-society England. Watch the series premiere.",
+			"Image": "src/assets/images/mls_pass/cam5.webp"
+		}
+	],
+	"cover": [
+		{
+			"id": 1,
+			"title": "The home of apple Originals",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/mls_pass/cover1.webp"
+		},
+
+		{
+			"id": 2,
+			"title": "The home of apple Originals",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/mls_pass/cover2.webp"
+		},
+		{
+			"id": 3,
+			"title": "The Morning Show",
+			"description": "The network’s future is thrown into question. Watch the Season 3 finale.",
+			"Image": "src/assets/images/mls_pass/cover3.webp"
+		},
+		{
+			"id": 4,
+			"title": "For All Mankind",
+			"description": "A new gold rush begins. Watch the Season 4 premiere.",
+			"Image": "src/assets/images/mls_pass/cover4.webp"
+		},
+
+		{
+			"id": 5,
+			"title": "The boocuneers ",
+			"description": "American girls clash with high-society England. Watch the series premiere.",
+			"Image": "src/assets/images/mls_pass/cover5.webp"
+		}
+	],
+	"mls_main": [
+		{
+			"id": 1,
+			"title": "The home of apple Originals",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/mls_pass/main1.webp"
+		},
+
+		{
+			"id": 2,
+			"title": "The home of apple Originals",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/mls_pass/main2.webp"
+		},
+		{
+			"id": 3,
+			"title": "The Morning Show",
+			"description": "The network’s future is thrown into question. Watch the Season 3 finale.",
+			"Image": "src/assets/images/mls_pass/main3.webp"
+		},
+		{
+			"id": 4,
+			"title": "For All Mankind",
+			"description": "A new gold rush begins. Watch the Season 4 premiere.",
+			"Image": "src/assets/images/mls_pass/main4.webp"
+		},
+
+		{
+			"id": 5,
+			"title": "The boocuneers ",
+			"description": "American girls clash with high-society England. Watch the series premiere.",
+			"Image": "src/assets/images/mls_pass/main5.webp"
+		}
+	],
+	"team": [
+		{
+			"id": 1,
+			"title": "The home of apple Originals",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/mls_pass/team1.webp"
+		},
+
+		{
+			"id": 2,
+			"title": "The home of apple Originals",
+			"description": "Enjoy star-studded, award-winning series, films, and more.",
+			"Image": "src/assets/images/mls_pass/team2.webp"
+		},
+		{
+			"id": 3,
+			"title": "The Morning Show",
+			"description": "The network’s future is thrown into question. Watch the Season 3 finale.",
+			"Image": "src/assets/images/mls_pass/team3.webp"
+		},
+		{
+			"id": 4,
+			"title": "For All Mankind",
+			"description": "A new gold rush begins. Watch the Season 4 premiere.",
+			"Image": "src/assets/images/mls_pass/team4.webp"
+		},
+
+		{
+			"id": 5,
+			"title": "The boocuneers ",
+			"description": "American girls clash with high-society England. Watch the series premiere.",
+			"Image": "src/assets/images/mls_pass/team5.webp"
+		}
+	],
+	"users":[
+		
+
+
+
+
+
+
+
+	]
+}
