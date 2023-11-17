@@ -24,23 +24,6 @@ export default function SignIn() {
 	const [password, setPassword] = useState("");
 	const { isOpen, onOpen, onClose } = useDisclosure();
 
-
-	const handleLogin = () => {
-		const user = userData.users.find(
-		  (user) => user.username === username && user.password === password
-		);
-	
-		if (user) {
-		  console.log("Login successful!");
-		  setError("");
-		} else {
-		  console.log("Login failed!");
-		  setError("Invalid username or password");
-		}
-	  };
-
-
-
 	return (
 		<>
 			<Button
@@ -72,32 +55,28 @@ export default function SignIn() {
 							/>
 							<Heading margin={"1rem"} size="lg">
 								{" "}
-								SignIn 
+								SignIn
 							</Heading>
 							<Heading margin={"1rem"} size="md">
 								Enter your email & password to get started..
 							</Heading>
-							<form onSubmit={handleSignin}>
-							<Input
-									required
+							<form as='form'>
+								<Input
+									type="email"
 									width={"70%"}
 									backgroundColor={"#2d2d2d"}
 									color={"white"}
 									size="lg"
-									value={username}
-									onChange={(e) => setUsername(e.target.value)}
 									margin={"auto"}
-									marginBottom={'1rem'}
+									marginBottom={"1rem"}
 									height={"4rem"}
 									placeholder="Email or Apple ID"
 								/>
 								<Input
-									required
+									type="password"
 									width={"70%"}
 									backgroundColor={"#2d2d2d"}
 									color={"white"}
-									value={username}
-									onChange={(e) => setUsername(e.target.value)}
 									size="lg"
 									margin={"auto"}
 									height={"4rem"}
@@ -109,8 +88,8 @@ export default function SignIn() {
 								<Image
 									display={"block"}
 									margin={"auto"}
-									marginTop={'1rem'}
-									marginBottom={'1rem'}
+									marginTop={"1rem"}
+									marginBottom={"1rem"}
 									src="https://tv.apple.com/static-commerce/img/privacy-dark.90d9528d.svg"
 								/>
 								<Container textAlign={"center"} maxW="xl" fontSize={".7rem"}>
@@ -122,7 +101,9 @@ export default function SignIn() {
 									Apple services.
 									<Link>see how your data is managed....</Link>
 								</Container>{" "}
-								<Input margin={'1rem'} type='submit' width={'40%'} size="lg">Continue</Input>
+								<Input margin={"1rem"} type="submit" width={"40%"} size="lg">
+									Continue
+								</Input>
 							</form>
 						</Flex>
 					</ModalBody>

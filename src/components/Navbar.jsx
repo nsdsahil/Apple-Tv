@@ -43,8 +43,8 @@ export default function Navbar() {
 					margin={"auto"}
 					color={"white"}
 					templateColumns={"1fr 5fr 1fr"}
-					paddingTop={".8rem"}
-					paddingBottom={".8rem"}
+					paddingTop={".7rem"}
+					paddingBottom={".7rem"}
 					paddingRight={"2rem"}
 				>
 					<Box></Box>

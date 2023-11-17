@@ -11,7 +11,7 @@ export default function Cover({ url, url2 }) {
         height={{ base: "300px", md: "700px" }}
         borderRadius={{ base: "0", md: "1rem" }}
         backgroundImage={url}
-        backgroundSize={{ base: "cover", md: "contain" }}
+        backgroundSize={{ base: "cover", md: "cover" }}
       >
         <Box position={"absolute"} bottom={{ base: "2rem", md: "6rem" }} left={{ base: '1rem', md: '4rem' }}>
           <Image left={'4rem'} src={url2} />
