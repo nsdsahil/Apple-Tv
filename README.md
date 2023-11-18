@@ -3,11 +3,10 @@
 =======
 # Apple-Tv
 
-This is a clone of India's most trusted online pharmacy & medical website PharmEasy,
-PharmEasy is as an e-commerce platform, offering pharmaceutical and healthcare products, where individuals can purchase healthcare-related equipment including medicines.
-
+This is a clone of India's most trusted Apple Tv+ movie watching platform,
+Apple TV+ is a streaming service featuring Apple Originals — award-winning series, compelling dramas, groundbreaking documentaries, kids’ entertainment, comedies and more — with new Apple Originals added every month
 # Description
-Created a functional website for Apple .Where user can login by his/her phone number. Implemented searching,review product and watching functionalities with or without mlsPass.
+Created a functional website for Apple TV +.Where user can login by his/her phone number. Implemented searching,review product and watching functionalities with or without mlsPass.
 
 # Functionalities are:
 Login
@@ -17,12 +16,13 @@ See more details about the movie
 login or logout 
 
 # Tech Stack
-React
-Javascript ( ES6 )
-Chackra UI
+* Html 
+* React
+* Javascript ( ES6 )
+* Chackra UI
+* HTML
+* CSS
 
-HTML
-CSS
 # Installation Requirements
 * Fork the repo, then clone it
 * install all dependencies, with 'npm install'
