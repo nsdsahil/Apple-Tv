@@ -45,4 +45,4 @@ login or logout
 ![Alt text](<src/assets/ss/Screenshot 2023-11-17 183549.png>)
 ![Alt text](<src/assets/ss/Screenshot 2023-11-17 183603.png>)
 ![Alt text](<src/assets/ss/Screenshot 2023-11-17 183726.png>)
-![Alt text](<src/assets/ss/Screenshot 2023-11-17 194237.png>)
+
