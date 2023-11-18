@@ -38,7 +38,7 @@ export default function Home() {
 				heading={"Bridge Entire Seasons"}
 			/>
 			<Cover
-				url={"src/assets/images/cover/11.jpg"}
+				url={"https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/0e/17/c1/0e17c1cc-8b02-960b-2138-8f3a04a060b3/7262cc6f-01e8-4a6e-8972-d4cce4861031.png/1679x945sr.webp"}
 				url2={
 					"https://is1-ssl.mzstatic.com/image/thumb/2Pvq9Q1gy7cxOpfXK1_8Ew/480x180.webp"
 				}
@@ -58,8 +58,6 @@ export default function Home() {
 				heading={"Available for free"}
 			/>
 			<Carousel arr={jsonData.coverSlider2} width={"85%"} marginTop={"2rem"} />
-			
-			
 		</>
 	);
 }

@@ -13,7 +13,7 @@ export default function MlsSeasonPass() {
 			/>
 			<Box
 				paddingTop={"20%"}
-				backgroundImage={"src/assets/images/mls_pass/cover5.webp"}
+				backgroundImage={"https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0b/fd/5b/0bfd5b6a-542c-0eb7-b28a-f55ef80d5b45/70d1d530-d899-48e9-a51b-e2ef0379bffc.png/1320x495sr.webp"}
 				backgroundSize={"cover"}
 			>
 				<Spacer />
