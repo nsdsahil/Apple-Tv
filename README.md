@@ -6,7 +6,7 @@
 This is a clone of India's most trusted Apple Tv+ movie watching platform,
 Apple TV+ is a streaming service featuring Apple Originals — award-winning series, compelling dramas, groundbreaking documentaries, kids’ entertainment, comedies and more — with new Apple Originals added every month
 
-[link](https://apple-6brpnwea5-sahil-nishads-projects.vercel.app/)
+ website [link](https://apple-6brpnwea5-sahil-nishads-projects.vercel.app/)
 
 # Description
 Created a functional website for Apple TV +.Where user can login by his/her phone number. Implemented searching,review product and watching functionalities with or without mlsPass.
