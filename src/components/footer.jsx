@@ -17,7 +17,7 @@ export function Footer() {
 						Copyright © 2023 All rights reserved.
 					</Container>
 				</Box>
-				<Box>
+				<Box display={"flex"} flexWrap={"wrap"}>
 					<Breadcrumb height={"auto"} fontSize="inherit">
 						<BreadcrumbItem>
 							<BreadcrumbLink href="#">United States</BreadcrumbLink>
@@ -29,7 +29,7 @@ export function Footer() {
 
 						<BreadcrumbItem isCurrentPage>
 							<BreadcrumbLink href="#">Breadcrumb</BreadcrumbLink>
-						</BreadcrumbItem>
+						</BreadcrumbItem> 
 					</Breadcrumb>
 				</Box>
 			</Flex>

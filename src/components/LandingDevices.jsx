@@ -25,7 +25,7 @@ export default function () {
 				src="https://tv.apple.com//assets/brands/Apple_TV_plus_logo_black-8f8ee485ebc6d720f59210aefc05f905.svg"
 			/>
 			<Heading>Watch here and on the big screen. </Heading>
-			<Flex width={"90%"} flexWrap={"wrap"} justifyContent={"center"}>
+			<Flex  width={"90%"} flexWrap={"wrap"} justifyContent={"center"}>
 				<Image
 					margin={"1rem"}
 					src={
@@ -99,7 +99,7 @@ export default function () {
 			<Link size="xl" fontWeight={"bold"} color={"#0a84ff"}>
 				see All the Ways to Watch Apple Tv+
 			</Link>
-			<Flex flexWrap={"wrap"} justifyContent={"space-between"}>
+			<Flex flexWrap={"wrap"} justifyContent={"center"}>
 				<Box textAlign={"center"}>
 					<Image
 						margin={"1rem"}
