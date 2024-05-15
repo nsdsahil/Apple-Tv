@@ -78,13 +78,14 @@ export default function Navbar() {
 					</Center>}
 					<Box>
 						<Flex alignItems={"center"}>
-							<InputGroup size="sm" width={"10rem"} borederRadius={"1rem"}>
+							<InputGroup size="sm" width={"10rem"} 	 >
 								<InputLeftAddon
 									backgroundColor={"black"}
 									borderRight={"none"}
 									children={<Search2Icon />}
 								/>
 								<Input
+								    borderRadius={".3rem"}
 									fontSize={"1rem"}
 									type="text"
 									color={"white"}

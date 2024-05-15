@@ -21,6 +21,7 @@ import {
     return(
         <Menu backgroundColor={'white'} color='black'>
         <MenuButton
+        size={"sm"}
           width={'10%'}
           backgroundColor={'white'}
           as={IconButton}
