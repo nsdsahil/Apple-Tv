@@ -9,12 +9,22 @@ import LandingDevices from "../components/LandingDevices";
 import AccordionExample from "../components/dynamicAccordion";
 import AccordionWithImage from "../components/dynamicAccordion";
 import { Footer } from "../components/footer";
+import { useBreakpointValue,Box } from "@chakra-ui/react";
 export default function Home() {
+	const height = useBreakpointValue({
+		base: "80px",
+		md: "40px",
+		lg: "40px",
+		xl: "20px",
+		"2xl": "0px",
+	});
+
+	
 	const main = jsonData.main;
 	return (
 		<>
 			{console.log(main)}
-
+            <Box height={height}></Box>
 			<Carousel arr={main} width={"90%"} />
 			<CarouselMultipleSlides
 				arr={jsonData.premium}

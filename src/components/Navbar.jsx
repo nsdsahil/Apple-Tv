@@ -12,6 +12,7 @@ import {
 	Grid,
 	Center,
 	InputGroup,
+	useBreakpointValue,
 } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { Search2Icon } from "@chakra-ui/icons";
@@ -19,9 +20,22 @@ import SignIn from "./SignIn";
 import CreateAccount from "./CreateAccount"
 import { useContext } from "react";
 import { AuthContext } from "../context/AuthContext";
+import { HamburgerMenu } from "./HamburgerMenu";
+
+
+
+
 export default function Navbar() {
 
      const {isAuth}=useContext(AuthContext)
+	 const isMobile=useBreakpointValue({
+		 base:true,
+		 sm:true,
+		 md:true,
+		 lg:false,
+		 xl:false,
+		 "2xl":false,
+	 })
 
 
 
@@ -38,6 +52,7 @@ export default function Navbar() {
 				right={"0"}
 				backgroundColor={"black"}
 			>
+				
 				<Grid
 					width={"90%"}
 					margin={"auto"}
@@ -45,11 +60,13 @@ export default function Navbar() {
 					templateColumns={"1fr 5fr 1fr"}
 					paddingTop={".7rem"}
 					paddingBottom={".7rem"}
+					alignItems={"center"}
 					paddingRight={"2rem"}
 				>
 					<Box></Box>
+					{isMobile && <HamburgerMenu/>}
 
-					<Center>
+					{!isMobile &&<Center>
 						<Breadcrumb separator={<space color="gray.500" />}>
 							<BreadcrumbItem textDecoration={"none"}>
 								<Link to="/">Apple Tv+</Link>
@@ -58,7 +75,7 @@ export default function Navbar() {
 								<Link to="/MlsSeasonPass">MLS Season Pass</Link>
 							</BreadcrumbItem>
 						</Breadcrumb>
-					</Center>
+					</Center>}
 					<Box>
 						<Flex alignItems={"center"}>
 							<InputGroup size="sm" width={"10rem"} borederRadius={"1rem"}>

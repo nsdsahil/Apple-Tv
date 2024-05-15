@@ -15,7 +15,7 @@ export default function Cover({ url, url2 }) {
       >
         <Box position={"absolute"} bottom={{ base: "2rem", md: "6rem" }} left={{ base: '1rem', md: '4rem' }}>
           <Image left={'4rem'} src={url2} />
-          <Heading color="white" size="md">
+          <Heading color="white" size={["md",]}>
             New Series Premiers Friday
           </Heading>
           <Heading color="white" as="h4">

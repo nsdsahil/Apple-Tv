@@ -15,7 +15,7 @@ export default function Qna() {
 				allowMultiple
 				allowToggle
 				backgroundColor={"white"}
-				width={"70%"}
+				width={["100%","90%","70%","70%"]}
 				margin={"auto"}
 				marginTop={"5%"}
 			>

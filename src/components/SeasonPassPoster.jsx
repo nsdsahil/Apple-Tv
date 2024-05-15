@@ -7,6 +7,7 @@ export default function SeasonPassPoster(){
     return(
         <>
         <Flex
+        padding={'2%'}
         alignItems={'center'}
         justifyContent={"center"}
         backgroundColor={"black "}
@@ -18,7 +19,7 @@ export default function SeasonPassPoster(){
         
         <Heading size='lg'   noOfLines={2} >Season <br/>Pass</Heading>
         </Flex>
-        <Heading as='h5' size='md'
+        <Heading as='h5' size={['xs','md','lg']}
         margin={'3rem'}
         >Every match. Every club. No blackouts. Only on Apple TV.</Heading>
         <Box>

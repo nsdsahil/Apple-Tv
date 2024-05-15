@@ -37,7 +37,7 @@ export default function SignIn() {
 				Sign in
 			</Button>
 
-			<Modal size={"3xl"} isOpen={isOpen} onClose={onClose}>
+			<Modal size={"md"} isOpen={isOpen} onClose={onClose}>
 				<ModalOverlay />
 				<ModalContent textAlign={"center"} backgroundColor={"#262629"}>
 					<ModalHeader></ModalHeader>
@@ -61,15 +61,14 @@ export default function SignIn() {
 								Enter your email & password to get started..
 							</Heading>
 							<form as='form'>
-								<Input
+								 <Input
 									type="email"
 									width={"70%"}
 									backgroundColor={"#2d2d2d"}
 									color={"white"}
-									size="lg"
+									size="md"
 									margin={"auto"}
 									marginBottom={"1rem"}
-									height={"4rem"}
 									placeholder="Email or Apple ID"
 								/>
 								<Input
@@ -77,9 +76,8 @@ export default function SignIn() {
 									width={"70%"}
 									backgroundColor={"#2d2d2d"}
 									color={"white"}
-									size="lg"
+									size="md"
 									margin={"auto"}
-									height={"4rem"}
 									placeholder="password"
 								/>
 								<Link display={"block"} color={"#0a84ff"}>
@@ -101,9 +99,7 @@ export default function SignIn() {
 									Apple services.
 									<Link>see how your data is managed....</Link>
 								</Container>{" "}
-								<Input margin={"1rem"} type="submit" width={"40%"} size="lg">
-									Continue
-								</Input>
+								<Input margin={"1rem"} type="submit" width={"40%"} size="lg" value="continue"/> 
 							</form>
 						</Flex>
 					</ModalBody>

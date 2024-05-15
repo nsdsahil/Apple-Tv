@@ -76,14 +76,14 @@ const{setAuth}=useContext(AuthContext)
 			</Button>
 			{console.log(username,password,jsonData.users)}
 
-			<Modal size={"3xl"} isOpen={isOpen} onClose={onClose}>
+			<Modal size={"xl"} isOpen={isOpen} onClose={onClose}>
 				<ModalOverlay />
 				<ModalContent backgroundColor={"#181d15"}>
 					<ModalHeader></ModalHeader>
 					<ModalCloseButton color='white' />
 					<ModalBody>
 						<Flex
-							padding={"2rem"}
+							padding={1}
 							justifyContent={"space-around"}
 							color="white"
 							direction={"column"}
@@ -101,7 +101,7 @@ const{setAuth}=useContext(AuthContext)
 									placeholder="email"
 									value={username}
 									type="email	"
-									size="lg"
+									size="md"
 									onChange={(e) => setUsername(e.target.value)}
 								/>
 								<Text>This email address will become your Apple ID.</Text>
@@ -111,7 +111,7 @@ const{setAuth}=useContext(AuthContext)
 									placeholder="Password"
 									value={password}
 									type="email	"
-									size="lg"
+									size="md"
 									onChange={(e) => setPassword(e.target.value)}
 								/>
 								<Text>
@@ -123,7 +123,7 @@ const{setAuth}=useContext(AuthContext)
 									marginTop={"2rem"}
 									placeholder="First Name"
 									type="text"
-									size="lg"
+									size="md"
 								/>
 								<Text></Text>
 								<Spacer />
@@ -131,7 +131,7 @@ const{setAuth}=useContext(AuthContext)
 									marginTop={"2rem"}
 									placeholder="Last Name"
 									type="text"
-									size="lg"
+									size="md"
 								/>
 
 								<Text></Text>
@@ -139,7 +139,7 @@ const{setAuth}=useContext(AuthContext)
 									marginTop={"2rem"}
 									placeholder="Birthday"
 									type="date"
-									size="lg"
+									size="md"
 								/>
 								<Select marginTop={"2rem"} placeholder="Select option">
 									<option value="option1">Option 1</option>
@@ -152,7 +152,7 @@ const{setAuth}=useContext(AuthContext)
 									securely and access your data. Apple records
 								</Container>
 								<Checkbox>
-									<Text>
+									<Text fontSize={"1rem"}>
 										Receive Apple emails and
 										communications including new releases, exclusive content,
 										special offers, and marketing and recommendations for apps,

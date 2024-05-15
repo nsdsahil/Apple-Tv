@@ -10,6 +10,7 @@ import {
 	Image,
 	Text,
 	Divider,
+	useBreakpointValue,
 } from "@chakra-ui/react";
 
 import "slick-carousel/slick/slick.css";
@@ -17,6 +18,14 @@ import "slick-carousel/slick/slick-theme.css";
 import { Card, CardHeader, CardBody, CardFooter } from "@chakra-ui/react";
 
 export default function CarouselMultipleSlides({ arr, heading,flag }) {
+
+	const isMobile = useBreakpointValue({
+		base: true,
+		md: true,
+		lg: false,
+		xl: false,
+		"2xl": false,
+	});
 	const settings = {
 		dots: false,
 		infinite: true,
@@ -27,7 +36,10 @@ export default function CarouselMultipleSlides({ arr, heading,flag }) {
 		pauseOnHover: true,
 		centerPading: true,
 		focusOnSelect: true,
+		arrows: !isMobile,
 	};
+
+	
 
 	const responsiveSettings = [
 		{
@@ -73,7 +85,7 @@ export default function CarouselMultipleSlides({ arr, heading,flag }) {
 			>
 				{arr.map((images) => (
 					<Box key={images.id} color={"white"} paddingRight={"2rem"}>
-						<Image borderRadius={"1rem"} width={"100%"} src={images.Image} />
+						<Image style={{marginLeft:'5%'}} borderRadius={"1rem"} width={"100%"} src={images.Image} />
 						<Flex alignItems={"center"}>
 							<Heading
 								as="h1"
